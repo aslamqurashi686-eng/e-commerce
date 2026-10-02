@@ -1,0 +1,472 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Get Ready With Us - Discover modern fashion, timeless essentials and new collections.">
+  <title>GRWS | Get Ready With Us</title>
+
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <!-- ICONS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+  <!-- CSS FILE -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ANNOUNCEMENT BAR -->
+  <div class="announcement">
+    <p>NEW SEASON, NEW STYLE — FREE SHIPPING ON ORDERS ABOVE Rs. 5,000</p>
+  </div>
+
+  <!-- HEADER -->
+  <header class="header" id="header">
+    <div class="header-inner">
+
+      <!-- MOBILE MENU BUTTON -->
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <!-- GRWS LOGO -->
+      <a href="#home" class="logo">
+        <span class="logo-main">
+          
+          GRWS</span>
+        <span class="logo-sub">GET READY WITH US</span>
+      </a>
+    
+
+      <!-- NAVIGATION -->
+      <nav class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#new-arrivals">New Arrivals</a>
+        <a href="#collections">Collections</a>
+        <a href="#featured">Featured</a>
+        <a href="#about">About Us</a>
+      </nav>
+
+      <!-- HEADER ACTIONS -->
+      <div class="header-actions">
+        <button class="icon-btn" id="searchToggle" aria-label="Search">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+        <a href="#footer" class="icon-btn account-link" aria-label="Account">
+          <i class="fa-regular fa-user"></i>
+        </a>
+        <button class="icon-btn cart-btn" id="cartToggle" aria-label="Shopping cart">
+          <i class="fa-solid fa-bag-shopping"></i>
+          <span class="cart-count" id="cartCount">0</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- SEARCH BAR -->
+    <div class="search-panel" id="searchPanel">
+      <input type="search" id="searchInput" placeholder="Search products...">
+      <button id="searchButton" aria-label="Submit search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </button>
+    </div>
+  </header>
+
+ <!-- HERO SECTION -->
+<main>
+  <section class="hero" id="home">
+
+    <!-- HERO HEADER IMAGE -->
+    <img class="hero-image"
+         src="123.png"
+         alt="GRWS latest fashion collection">
+
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+      <p class="eyebrow">THE NEW COLLECTION — 2026</p>
+
+      <h1>Style That<br><em>Speaks</em> For You.</h1>
+
+      <p class="hero-description">
+        Discover timeless fashion designed for your everyday confidence.
+      </p>
+
+      <a href="#new-arrivals" class="btn btn-dark">
+        SHOP THE COLLECTION <i class="fa-solid fa-arrow-right"></i>
+      </a>
+    </div>
+
+    <div class="hero-side-text">GRWS / EST. 2026</div>
+
+  </section>
+</main>
+    <!-- BENEFITS -->
+    <section class="benefits">
+      <div class="benefit-item">
+        <i class="fa-solid fa-truck-fast"></i>
+        <div>
+          <h3>Free Shipping</h3>
+          <p>On orders above Rs. 5,000</p>
+        </div>
+      </div>
+      <div class="benefit-item">
+        <i class="fa-solid fa-rotate-left"></i>
+        <div>
+          <h3>Easy Returns</h3>
+          <p>7-day return policy</p>
+        </div>
+      </div>
+      <div class="benefit-item">
+        <i class="fa-solid fa-lock"></i>
+        <div>
+          <h3>Secure Shopping</h3>
+          <p>Safe checkout experience</p>
+        </div>
+      </div>
+      <div class="benefit-item">
+        <i class="fa-solid fa-headset"></i>
+        <div>
+          <h3>Customer Support</h3>
+          <p>We're here to help</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- NEW ARRIVALS -->
+    <section class="section new-arrivals" id="new-arrivals">
+      <div class="section-heading reveal">
+        <div>
+          <p class="eyebrow">JUST LANDED</p>
+          <h2>New Arrivals</h2>
+        </div>
+        <a href="#featured" class="text-link">
+          Explore All <i class="fa-solid fa-arrow-right"></i>
+        </a>
+      </div>
+
+      <!-- PRODUCT GRID: NEW ARRIVALS
+           PRODUCT ADD KARNE KE LIYE NEECHAY WALA CARD COPY KARO.
+           IMAGE FILE NAME, PRODUCT NAME AUR PRICE CHANGE KARO.
+      -->
+      <div class="product-grid">
+
+        <!-- PRODUCT 1: IMAGE HERE -->
+        <article class="product-card reveal" data-category="women">
+          <div class="product-image-wrap">
+            <span class="product-tag">NEW</span>
+            <img src="product1.jpg" alt="Elegant everyday outfit">
+            <button class="quick-add" data-name="Everyday Elegance" data-price="4500">
+              ADD TO BAG
+            </button>
+          </div>
+          <div class="product-info">
+            <p class="product-category">WOMEN / CLOTHING</p>
+            <h3>Iconic frok</h3>
+            <p class="price">Rs. 22,500</p>
+          </div>
+        </article>
+
+        <!-- PRODUCT 2: IMAGE HERE -->
+        <article class="product-card reveal" data-category="men">
+          <div class="product-image-wrap">
+            <span class="product-tag">TRENDING</span>
+            <img src="product2.jpg" alt="Modern casual men's outfit">
+            <button class="quick-add" data-name="Urban Essential" data-price="5200">
+              ADD TO BAG
+            </button>
+          </div>
+          <div class="product-info">
+            <p class="product-category">MEN / CLOTHING</p>
+            <h3>Men's Four piece Suit</h3>
+            <p class="price">Rs. 29,200</p>
+          </div>
+        </article>
+
+        <!-- PRODUCT 3: IMAGE HERE -->
+        <article class="product-card reveal" data-category="women">
+          <div class="product-image-wrap">
+            <img src="product3.jpg" alt="Minimal chic fashion outfit">
+            <button class="quick-add" data-name="Minimal Chic" data-price="3900">
+              ADD TO BAG
+            </button>
+          </div>
+          <div class="product-info">
+            <p class="product-category">Younger / CLOTHING</p>
+            <h3>Track Suit</h3>
+            <p class="price">Rs. 14,900</p>
+          </div>
+        </article>
+
+        <!-- PRODUCT 4: IMAGE HERE -->
+        <article class="product-card reveal" data-category="accessories">
+          <div class="product-image-wrap">
+            <span class="product-tag">POPULAR</span>
+            <img src="product4.jpg" alt="Fashion accessories">
+            <button class="quick-add" data-name="Classic Accessories" data-price="2500">
+              ADD TO BAG
+            </button>
+          </div>
+          <div class="product-info">
+            <p class="product-category">ACCESSORIES</p>
+            <h3>Classic Accessories</h3>
+            <p class="price">Rs. 48,500</p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- SHOP BY CATEGORY -->
+    <section class="section categories" id="collections">
+      <div class="section-heading reveal">
+        <div>
+          <p class="eyebrow">FIND YOUR STYLE</p>
+          <h2>Shop By Category</h2>
+        </div>
+      </div>
+
+      <div class="category-grid">
+
+        <!-- CATEGORY 1: IMAGE HERE -->
+        <a href="#new-arrivals" class="category-card reveal">
+          <img src="women.jpg" alt="Women's fashion">
+          <div class="category-content">
+            <p>EXPLORE THE COLLECTION</p>
+            <h3>Women</h3>
+            <span>SHOP NOW <i class="fa-solid fa-arrow-right"></i></span>
+          </div>
+        </a>
+
+        <!-- CATEGORY 2: IMAGE HERE -->
+        <a href="#new-arrivals" class="category-card reveal">
+          <img src="men.jpg" alt="Men's fashion">
+          <div class="category-content">
+            <p>EXPLORE THE COLLECTION</p>
+            <h3>Men</h3>
+            <span>SHOP NOW <i class="fa-solid fa-arrow-right"></i></span>
+          </div>
+        </a>
+
+        <!-- CATEGORY 3: IMAGE HERE -->
+        <a href="#new-arrivals" class="category-card reveal">
+          <img src="accessories.jpg" alt="Fashion accessories">
+          <div class="category-content">
+            <p>COMPLETE YOUR LOOK</p>
+            <h3>Accessories</h3>
+            <span>SHOP NOW <i class="fa-solid fa-arrow-right"></i></span>
+          </div>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- PROMOTIONAL BANNER -->
+    <section class="promo-banner reveal">
+      <!-- PROMO IMAGE HERE: images/promo-banner.jpg -->
+      <img src="season.png" alt="GRWS seasonal fashion promotion">
+      <div class="promo-overlay"></div>
+      <div class="promo-content">
+        <p class="eyebrow">A LITTLE SOMETHING FOR YOU</p>
+        <h2>Make Your Room<br>For Something New.</h2>
+        <p>Explore the latest styles and refresh your wardrobe.</p>
+        <a href="#featured" class="btn btn-light">DISCOVER MORE</a>
+      </div>
+    </section>
+
+    <!-- FEATURED PRODUCTS -->
+    <section class="section featured" id="featured">
+      <div class="section-heading reveal">
+        <div>
+          <p class="eyebrow">HANDPICKED FOR YOU</p>
+          <h2>Our Favorites</h2>
+        </div>
+      </div>
+
+      <!-- FEATURED PRODUCT CARDS: COPY TO ADD MORE -->
+      <div class="product-grid">
+
+        <!-- FEATURED PRODUCT 1: IMAGE HERE -->
+        <article class="product-card reveal" data-category="men">
+          <div class="product-image-wrap">
+            <img src="feature1.jpg" alt="Classic men's fashion">
+            <button class="quick-add" data-name="Classic Form" data-price="4800">
+              ADD TO BAG
+            </button>
+          </div>
+          <div class="product-info">
+            <p class="product-category">MEN / ESSENTIALS</p>
+            <h3>Classic Form</h3>
+            <p class="price">Rs. 40,800</p>
+          </div>
+        </article>
+
+        <!-- FEATURED PRODUCT 2: IMAGE HERE -->
+        <article class="product-card reveal" data-category="women">
+          <div class="product-image-wrap">
+            <img src="feature2.jpg" alt="Women's premium outfit">
+            <button class="quick-add" data-name="The Modern Muse" data-price="6200">
+              ADD TO BAG
+            </button>
+          </div>
+          <div class="product-info">
+            <p class="product-category">WOMEN / PREMIUM</p>
+            <h3>The Modern Muse</h3>
+            <p class="price">Rs. 46,200</p>
+          </div>
+        </article>
+
+        <!-- FEATURED PRODUCT 3: IMAGE HERE -->
+        <article class="product-card reveal" data-category="accessories">
+          <div class="product-image-wrap">
+            <img src="feature3.jpg" alt="Premium fashion accessory">
+            <button class="quick-add" data-name="Signature Piece" data-price="3200">
+              ADD TO BAG
+            </button>
+          </div>
+          <div class="product-info">
+            <p class="product-category">ACCESSORIES</p>
+            <h3>Signature Piece</h3>
+            <p class="price">Rs. 9,200</p>
+          </div>
+        </article>
+
+        <!-- FEATURED PRODUCT 4: IMAGE HERE -->
+        <article class="product-card reveal" data-category="women">
+          <div class="product-image-wrap">
+            <img src="feature4.jpg" alt="Contemporary women's style">
+            <button class="quick-add" data-name="Soft Statement" data-price="5500">
+              ADD TO BAG
+            </button>
+          </div>
+          <div class="product-info">
+            <p class="product-category">WOMEN / CLOTHING</p>
+            <h3>Soft Statement</h3>
+            <p class="price">Rs. 55,500</p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ABOUT BRAND -->
+    <section class="about-section" id="about">
+      <div class="about-image reveal">
+        <!-- ABOUT IMAGE HERE: images/about-grws.jpg -->
+        <img src="about.png" alt="GRWS fashion brand editorial">
+      </div>
+      <div class="about-content reveal">
+        <p class="eyebrow">OUR STORY</p>
+        <h2>Fashion Is More Than What You Wear.</h2>
+        <p>
+          At GRWS, we believe personal style is a form of self-expression.
+          Our collections bring together modern design, everyday comfort
+          and timeless inspiration.
+        </p>
+        <p>
+          Get ready to express yourself. Get ready with us.
+        </p>
+        <a href="#collections" class="text-link">
+          EXPLORE OUR WORLD <i class="fa-solid fa-arrow-right"></i>
+        </a>
+      </div>
+    </section>
+
+    <!-- NEWSLETTER -->
+    <section class="newsletter reveal">
+      <p class="eyebrow">STAY IN THE LOOP</p>
+      <h2>Something Stylish Is Coming.</h2>
+      <p>Sign up for collection updates, style inspiration and special offers.</p>
+      <form id="newsletterForm" class="newsletter-form">
+        <input type="email" id="newsletterEmail"
+               placeholder="Enter your email address" required>
+        <button type="submit">SUBSCRIBE <i class="fa-solid fa-arrow-right"></i></button>
+      </form>
+      <p class="newsletter-message" id="newsletterMessage" aria-live="polite"></p>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer" id="footer">
+    <div class="footer-main">
+      <div class="footer-brand">
+        <a href="#home" class="logo footer-logo">
+          <span class="logo-main">GRWS</span>
+          <span class="logo-sub">GET READY WITH US</span>
+        </a>
+        <p>Everyday confidence. Timeless style.</p>
+        <div class="social-links">
+          <!-- APNE SOCIAL MEDIA LINKS YAHAN ADD KARO -->
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" aria-label="Pinterest"><i class="fa-brands fa-pinterest-p"></i></a>
+          <a href="#" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-column">
+        <h3>SHOP</h3>
+        <a href="#new-arrivals">New Arrivals</a>
+        <a href="#collections">Women</a>
+        <a href="#collections">Men</a>
+        <a href="#collections">Accessories</a>
+      </div>
+
+      <div class="footer-column">
+        <h3>HELP</h3>
+        <a href="#footer">Contact Us</a>
+        <a href="#footer">Shipping Information</a>
+        <a href="#footer">Returns & Exchanges</a>
+        <a href="#footer">FAQs</a>
+      </div>
+
+      <div class="footer-column">
+        <h3>CONTACT</h3>
+        <!-- APNA BUSINESS EMAIL AUR NUMBER ADD KARO -->
+        <p>xmohsinlix@gmail.com</p>
+        <p>Pakistan</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 GRWS — GET READY WITH US. All rights reserved.</p>
+      <p>Designed for everyday style.</p>
+    </div>
+  </footer>
+
+  <!-- CART SIDEBAR -->
+  <div class="cart-backdrop" id="cartBackdrop"></div>
+  <aside class="cart-sidebar" id="cartSidebar" aria-label="Shopping cart">
+    <div class="cart-header">
+      <h2>Your Bag (<span id="cartHeadingCount">0</span>)</h2>
+      <button id="cartClose" aria-label="Close cart">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+    <div class="cart-items" id="cartItems">
+      <p class="empty-cart">Your bag is currently empty.</p>
+    </div>
+    <div class="cart-footer">
+      <div class="cart-total">
+        <span>Subtotal</span>
+        <strong id="cartTotal">Rs. 0</strong>
+      </div>
+      <button class="btn btn-dark checkout-btn" id="checkoutBtn">
+        PROCEED TO CHECKOUT
+      </button>
+      <p class="cart-note">Shipping and taxes calculated at checkout.</p>
+    </div>
+  </aside>
+
+  <!-- TOAST NOTIFICATION -->
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <!-- JAVASCRIPT FILE -->
+  <script src="script.js"></script>
+</body>
+</html>
